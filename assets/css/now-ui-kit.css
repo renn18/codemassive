@@ -1,3 +1,8 @@
+p{
+  color: #000;
+  font-weight: 400; 
+}
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -3579,11 +3584,15 @@ p {
   margin-top: -25px;
 }
 
-.description,
 .card-description,
 .footer-big p {
   color: #9A9A9A;
   font-weight: 300;
+}
+
+.description{
+  color: #000;
+  
 }
 
 .category {
