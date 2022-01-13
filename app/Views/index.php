@@ -9,16 +9,18 @@
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="./assets/css/now-ui-kit.css" rel="stylesheet" />
-  <link href="./assets/demo/demo.css" rel="stylesheet" />
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/assets/css/now-ui-kit.css" rel="stylesheet" />
+  <link href="/assets/demo/demo.css" rel="stylesheet" />
+  <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.ico"/>
+
 </head>
 
 <body class="index-page sidebar-collapse">
   <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="./index.html" rel="tooltip" title="Komunitas Belajar IT khususnya Software Engineering" data-placement="bottom" target="_blank">
+        <a class="navbar-brand" href="/" rel="tooltip" title="Komunitas Belajar IT khususnya Software Engineering" data-placement="bottom" target="_blank">
           CodeMassive Eduation
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,28 +29,28 @@
           <span class="navbar-toggler-bar bottom-bar"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="/assets/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="./landingpage.html">
+            <a class="nav-link" href="/landingpage.html">
             <i class="fas fa-pager"></i>
             <p>Landing Page</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./comingsoon.html">
+            <a class="nav-link" href="/comingsoon.html">
               <i class="fas fa-chart-line"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./landingpage.html">
+            <a class="nav-link" href="/landingpage.html">
               <i class="fas fa-id-card"></i>
               <p>Contact</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./landingpage.html">
+            <a class="nav-link" href="/landingpage.html">
               <i class="fas fa-users"></i>
               <p>About</p>
             </a>
@@ -79,16 +81,16 @@
 
   <div class="wrapper">
     <div class="page-header clear-filter" filter-color="orange">
-      <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/header.jpg');">
+      <div class="page-header-image" data-parallax="true" style="background-image:url('/assets/img/header.jpg');">
       </div>
       <div class="container">
         <div class="content-center brand">
-          <img class="p-logo" src="./assets/img/1627953853779.png" alt="">
+          <img class="p-logo" src="/assets/img/1627953853779.png" alt="">
           <h1 class="h1-seo">Selamat Datang di</h1>
           <h3>CodeMassive Education - Komunitas IT Konsentrasi Software Engineering</h3>
           <div class="row">
             <div class="col-md-10 ml-auto col-xl-6 mr-auto">
-              <a href="./landingpage.html">
+              <a href="/landingpage.html">
                 <button class="btn btn-outline-primary">Pelajari Selengkapnya</button>
               </a>
             </div>
@@ -102,17 +104,17 @@
         <nav>
           <ul>
             <li>
-              <a href="./index.html">
+              <a href="/index.html">
                 CodeMassive Education
               </a>
             </li>
             <li>
-              <a href="./profile.html">
+              <a href="/profile.html">
                 About Me
               </a>
             </li>
             <li>
-              <a href="./comingsoon.html">
+              <a href="/comingsoon.html">
                 Pelajaran
               </a>
             </li>
@@ -128,13 +130,13 @@
     </footer>
   </div>
   
-  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
-  <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
+  <script src="/assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/assets/js/plugins/bootstrap-switch.js"></script>
+  <script src="/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <script src="/assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+  <script src="/assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
   <script>
     $(document).ready(function() {
       nowuiKit.initSliders();
