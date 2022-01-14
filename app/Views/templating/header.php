@@ -1,6 +1,4 @@
-<?= $this->extends('header')?>
-
-<?= $this->section('header')?>
+<?= $this->renderSection('header')?>
 
 <!DOCTYPE html>
 <html lang="id">
@@ -8,7 +6,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Login Page | Komunitas Belajar IT 
+    CodeMassive | Komunitas Belajar IT 
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -17,5 +15,3 @@
   <link href="./assets/css/now-ui-kit.css" rel="stylesheet" />
   <link href="./assets/demo/demo.css" rel="stylesheet" />
 </head>
-
-<?= $this->endSection('header')?>
