@@ -1,64 +1,7 @@
-<!DOCTYPE html>
-<html lang="id">
+<?= $this->extends('templating/page-layout')?>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>
-    Landing Page | CodeMassive Education
-  </title>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
+<?= $this->section('content')?>
 
-</head>
-
-<body class="landing-page sidebar-collapse">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
-    <div class="container">
-      <div class="navbar-translate">
-        <a class="navbar-brand" href="./index.html" rel="tooltip" title="Komunitas Belajar IT khususnya Software Engineering" data-placement="bottom" target="_blank">
-            CodeMassive Education
-        </a>
-        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-bar top-bar"></span>
-          <span class="navbar-toggler-bar middle-bar"></span>
-          <span class="navbar-toggler-bar bottom-bar"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">CodeMassive Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/_iamrenn">Punya Kendala?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Ikuti Saya di LinkedIn" data-placement="bottom" href="https://www.linkedin.com/in/muhammad-putra-pratama-72271720a/" target="_blank">
-              <i class="fab fa-twitter"></i>
-              <p class="d-lg-none d-xl-none">LinkedIn</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Pantau Saya di Facebook" data-placement="bottom" href="https://www.facebook.com/zpaver007" target="_blank">
-              <i class="fab fa-facebook-square"></i>
-              <p class="d-lg-none d-xl-none">Facebook</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Lirik Saya di Instagram" data-placement="bottom" href="https://www.instagram.com/_iamrenn" target="_blank">
-              <i class="fab fa-instagram"></i>
-              <p class="d-lg-none d-xl-none">Instagram</p>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   <!-- End Navbar -->
   <div class="wrapper">
     <div class="page-header page-header-small">
@@ -234,44 +177,5 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class=" container ">
-        <nav>
-          <ul>
-            <li>
-              <a href="./index.html">
-                CodeMassive Education
-              </a>
-            </li>
-            <li>
-              <a href="./profile.html">
-                About Me
-              </a>
-            </li>
-            <li>
-              <a href="./comingsoon.html">
-                Pelajaran
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="copyright" id="copyright">
-          &copy;
-          <script>
-            document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-          </script>, CodeMassive Education Web
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
-  <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
-</body>
-
-</html>
+  
+<?= $this->endSection()?>
