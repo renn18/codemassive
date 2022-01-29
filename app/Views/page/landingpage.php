@@ -2,7 +2,6 @@
 
 <?= $this->section('content')?>
 
-  <!-- End Navbar -->
   <div class="wrapper">
     <div class="page-header page-header-small">
       <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/1.jpeg');">
