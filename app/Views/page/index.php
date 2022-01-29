@@ -13,7 +13,7 @@
           <h3>CodeMassive Education - Komunitas IT Konsentrasi Software Engineering</h3>
           <div class="row">
             <div class="col-md-10 ml-auto col-xl-6 mr-auto">
-              <a href="/landingpage.html">
+              <a href="<?php echo base_url('/landing-page')?>">
                 <button class="btn btn-outline-primary">Pelajari Selengkapnya</button>
               </a>
             </div>
